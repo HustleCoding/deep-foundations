@@ -1,0 +1,38 @@
+
+- INTRODUCTION
+	- read javascript specification
+	- javascript is divided into three core pillars:
+		- types:
+			- primitive types
+			- abstract operations
+			- coercion
+			- equality
+			- TypeScript, Flow etc.
+		- scope:
+			- nested scope
+			- hoisting
+			- closure
+			- modules
+		- objects:
+			- this
+			- class {}
+			- prototypes
+			- OO vs. OLOO
+- TYPES
+	- primitive types:
+		- undefined
+		- string
+		- number
+		- boolean
+		- object
+		- symbol
+	- typeof operator
+		- undefined vs. undeclared - starting with the emptiness
+		- special values - NaN - which indicates an invalid number
+			- NaN is not equal to itself (NaN != Nan)
+			- -0 (negative zero)
+	- coercion (aka type conversion) - Type coercion is the automatic or implicit conversion of values from one data type to another (such as strings to numbers):
+		- abstract operation:
+			- ToPrimitive()
+			- ToString()
+			- 
