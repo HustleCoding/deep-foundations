@@ -18,7 +18,7 @@
 			- class {}
 			- prototypes
 			- OO vs. OLOO
-- TYPES
+- (I)TYPES -- first pillar 
 	- primitive types:
 		- undefined
 		- string
@@ -35,4 +35,23 @@
 		- abstract operation:
 			- ToPrimitive()
 			- ToString()
-			- 
+			- ToNumber()
+			- ToBoolean()
+	- equality(== vs ===)
+		- "if you are trying to understand your code, it's critical you learn to think like JS"
+
+```
+var student1 = "Frank";
+var student2 = `${student1}`;
+
+student1 == student2;            //true
+student1 === student2;           //true
+```
+		- prefers numeric comparison (ToNumber) - string become the number
+		- AVOID: 
+				- == with 0 or ""(or even "   ")
+				- == with non-primitives
+				- == true or == false. use ===
+		- 
+		- if the types are known, == is the best
+	- static typing
